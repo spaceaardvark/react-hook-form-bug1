@@ -1,0 +1,36 @@
+{
+  "name": "react-hook-form-bug1",
+  "version": "1.0.0",
+  "description": "A react-hook-form bug reproduction",
+  "main": "dist/index.html",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w",
+    "serve": "http-server dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spaceaardvark/add-utm-params.git"
+  },
+  "author": "Space Aardvark",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/spaceaardvark/add-utm-params/issues"
+  },
+  "homepage": "https://github.com/spaceaardvark/add-utm-params#readme",
+  "devDependencies": {
+    "@rollup/plugin-alias": "^3.1.1",
+    "@rollup/plugin-node-resolve": "^10.0.0",
+    "eslint": "^7.13.0",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "http-server": "^0.12.3"
+  },
+  "dependencies": {
+    "htm": "^3.0.4",
+    "preact": "^10.5.7",
+    "react-hook-form": "^6.11.3",
+    "rollup": "^2.33.3",
+    "rollup-plugin-terser": "^7.0.2"
+  }
+}
