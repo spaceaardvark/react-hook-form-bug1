@@ -1,4 +1,4 @@
-A reproduction for https://github.com/react-hook-form/react-hook-form/issues.
+A reproduction for https://github.com/react-hook-form/react-hook-form/issues/3498.
 
 1. Clone the repo.
 2. `npm run build`
